@@ -1,0 +1,117 @@
+@import "tailwindcss";
+
+@layer base {
+  html {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    scroll-behavior: smooth;
+    background-color: #09090b;
+    color: #f4f4f2;
+  }
+}
+
+.font-serif-italic {
+  font-family: 'Playfair Display', 'Cormorant Garamond', serif;
+  font-style: italic;
+}
+
+.font-cinzel {
+  font-family: 'Cinzel', serif;
+}
+
+.font-syne {
+  font-family: 'Syne', sans-serif;
+}
+
+/* Inked Tattoo text styles — mimicking fresh deep ink and etched tattoo needle texture */
+.ink-etched-text {
+  text-shadow: 0 0 20px rgba(0, 0, 0, 0.9), 0 0 40px rgba(185, 28, 28, 0.2);
+  letter-spacing: -0.01em;
+}
+
+.tattoo-stamp {
+  position: relative;
+  border: 2px dashed rgba(185, 28, 28, 0.6);
+  box-shadow: inset 0 0 15px rgba(185, 28, 28, 0.2);
+}
+
+/* Tattoo button textured with subtle background tattoo flash overlay and needle hover pulse */
+.btn-tattoo-ink {
+  position: relative;
+  background-color: #121216;
+  color: #fdfdfd;
+  background-image: radial-gradient(rgba(255, 255, 255, 0.08) 1px, transparent 0),
+                    linear-gradient(to bottom, rgba(28,28,34,0.9), rgba(12,12,16,0.95));
+  background-size: 8px 8px, 100% 100%;
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.5), inset 0 1px 0 rgba(255, 255, 255, 0.15);
+  transition: all 0.25s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.btn-tattoo-ink:hover {
+  background-color: #991b1b;
+  border-color: #ef4444;
+  box-shadow: 0 6px 20px rgba(185, 28, 28, 0.4), inset 0 1px 0 rgba(255, 255, 255, 0.3);
+  transform: translateY(-1px);
+}
+
+.btn-tattoo-outline {
+  position: relative;
+  background-color: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  color: #f4f4f2;
+  box-shadow: 2px 2px 0px rgba(0, 0, 0, 0.9);
+  transition: all 0.2s ease;
+}
+
+.btn-tattoo-outline:hover {
+  border-color: #b91c1c;
+  background-color: rgba(185, 28, 28, 0.15);
+  box-shadow: 3px 3px 0px #b91c1c;
+  transform: translate(-1px, -1px);
+}
+
+/* Custom aesthetic dark scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: #09090b;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #27272a;
+  border-radius: 2px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #b91c1c;
+}
+
+.glass-panel {
+  background: rgba(18, 18, 22, 0.85);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.glass-card {
+  background: #111115;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.glass-card:hover {
+  border-color: rgba(185, 28, 28, 0.5);
+}
+
+.bg-noise {
+  background-image: radial-gradient(rgba(255, 255, 255, 0.04) 1px, transparent 0);
+  background-size: 28px 28px;
+}
+
+/* Editorial line grid guides */
+.editorial-grid-line {
+  background: rgba(255, 255, 255, 0.05);
+}
+

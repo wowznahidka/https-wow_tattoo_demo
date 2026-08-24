@@ -1,0 +1,6 @@
+{
+  "name": "NOIR & NEEDLE Tattoo Studio",
+  "description": "Premium luxury tattoo studio atelier platform featuring interactive artist portfolios, custom tattoo price calculator, 3D placement previewer, live studio showreel, flash art reservation, and instant online booking.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
